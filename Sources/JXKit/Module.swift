@@ -4,7 +4,7 @@ import class Foundation.NSDictionary
 // This class supports extracting the version information of the runtime.
 
 /// The bundle for the `JXKit` module.
-public let JXKitBundle = Foundation.Bundle.module
+public let JXKitBundle = Foundation.Bundle.jxKitModule
 
 /// The information plist for the `JXKit` module, which is stored in `Resources/JXKit.plist` (until SPM supports `Info.plist`).
 private let JXKitPlist = JXKitBundle.url(forResource: "JXKit", withExtension: "plist")!
